@@ -1,0 +1,16 @@
+{
+  "name": "fy-elui-docs",
+  "version": "1.0.0",
+  "description": "fy-elui文档",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "start": "npm run docs:dev",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "fengying",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
